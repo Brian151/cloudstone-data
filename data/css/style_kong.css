@@ -1,0 +1,168 @@
+div#cls-page-wrapper {
+	background: #333;
+	height: 656px;
+	overflow: hidden;
+	width: 760px;
+}
+
+div.kong-wrapper {
+	
+}
+
+div.kong-header {
+	background: url("../img/kong_cls_banner_slim.png") no-repeat scroll 0 0 transparent;
+	height: 52px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+div.kong-guest {
+	background: url("../img/kong-guest-page-bg1.jpg") no-repeat scroll 0 0 transparent;
+	border-top: 3px solid #1396bb;
+	height: 301px;
+	position: relative;
+	width: 760px;
+}
+
+div.kong-guest-preview {
+	background: url("../img/kong-guest-page-bg2.jpg") no-repeat scroll 0 0 transparent;
+	height: 299px;
+	position: relative;
+	width: 760px;
+}
+
+span.guest-options {
+	display: block;
+	position: absolute;
+	top: 184px;
+	left: 85px;
+}
+
+div.thumb-bar,
+span.guest-button {
+	background: url("../img/kong-guest-page-sprite.png") no-repeat scroll 0 0 transparent;
+}
+
+span.guest-button {
+	display: block;
+	float: left;
+	margin: 0 0 20px 0;
+	height: 63px;
+	width: 167px;
+}
+
+span.sign-up {
+	background-position: 0 -64px;
+}
+span.sign-up:hover {
+	background-position: -168px -64px;
+}
+
+span.no-save {
+	background-position: 0 0;
+}
+span.no-save:hover {
+	background-position: -168px 0;
+}
+
+div.thumb-bar {
+	background-position: 0 -127px;
+	display: block;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 100;
+}
+
+ul.cls-thumbs {
+	margin: 8px 0 0 0;
+}
+
+li.cls-thumb {
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	margin-right: 15px;
+}
+
+span.cls-previewer {
+	display: block;
+	height: 262px;
+	position: absolute;
+	right: 13px;
+	top: 26px;
+	width: 548px;
+}
+
+ul.tabs {
+	top: 15px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 103px;
+}
+
+div#game {
+	border-top: 3px solid #1396bb;
+	margin: 0px; 
+	position: absolute; 
+	top: 52px; overflow: none;
+}
+
+div#game-pad {
+	height: 602px;
+}
+
+div#exchange-wrapper {
+	background-color: #1396bb;
+	width: 760px;
+	margin: 0px;
+}
+
+div.social-page {
+	background: url("../img/cs-gift-bg.jpg") no-repeat scroll 0 0 #FFFFFF;
+	border-radius: 0px 15px 15px 0px;
+	border-top: 3px solid #1396bb;
+	border-bottom: 3px solid #1396bb;
+	margin: 0px;
+	width: 754px;
+}
+
+div#exchange-welcome {
+	height: 568px !important;
+	width: 734px;
+}
+
+div#exchange-npc {
+	bottom: 0;
+}
+
+div#ruby-options, 
+div#gold-options,
+span#toggle-currency {
+	right: 0;
+}
+
+span.kong-price {
+	display: block;
+	float: right;
+	font-size: 0.7em;
+	margin-top: 5px;
+}
+
+div.footer {
+	background: url('../img/kong_cloudstone_footer_bg.png') no-repeat 0 0;
+	border-top: 2px solid #1396bb;
+	height: 35px;
+	padding-top: 12px;
+	margin-top: 0px;
+	width: 760px;
+}
+
+div.cls-copy {
+	background: url('../img/kong_playsaurus_nexon_footer.png') no-repeat 0 0;
+	height: 59px;
+	width: 760px;
+}

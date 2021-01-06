@@ -1,0 +1,182 @@
+usually when MMOs have files updated, the original is replaced
+sometimes, new directories are created
+a common theme, however is that old versions are deleted.
+in cloudstone, this did not happen
+in cloudstone, game files were suffixed with their version and never deleted
+
+in my attempts to clone the server, data was found for old versions of the game
+quite possibly, every version released, maybe some that weren't
+most files were simply duplicates and nothing significant changed
+however, pugmain (the client) occassionally went-through noteworthy changes
+
+{files}
+
+pugmain.swf:
+v9459 : old version with unreleased minimap island (island deleted later)
+v14730 : version with halloween island on mini-map (island added and deleted with the halloween event being cycled. data for halloween island was itself, never deleted)
+v14814 : most recent and final game version
+
+multiple other versions of this file were found, but nothing seemed significant
+
+staticdata.json:
+the core config file
+unlike other files, this file was prefixed with its version
+it also was duplicated thousands of times, rather than old versions deleted
+the intended function of this file was to store everything about the in-game objects and items
+it also links the assets up. 
+because of the functionality of linking assets to game objects, this file basically doubles as a map of the asset server
+it has been suffxed with "E" as late in the game's life, compression was used. it's a ~7.5MB text file, this makes perfect sense
+
+characterviewer.swf:
+name says all
+
+pugpreloader.swf:
+obligatory flash game preloader
+
+{directories}
+
+avatar:
+player avatar features and equipment
+
+backgroundSets: backgrounds for the maps
+
+breakableSets: map objects that can be destroyed
+
+cache : actual location on the server of staticdata.json
+
+core > admin : swfobject.js
+
+css : stylesheets for HTML wrapper
+
+doodadSets : mostly map objects and walls
+
+homeProducers : special decorations used for the player home's farm
+
+images : splash screens and cutscenes, shop promo screens, and feed images (remember, CS was a social game!)
+
+interactableSets : map scenery that could be interacted with
+
+islands : island overworld maps, every island has one besides easter island and the special quests that eventually broke-down
+
+itemSets : collectable items (pets and equipment bundle icons with the in-game sprites)
+
+js : various scripts, most are for messing with the HTML DOM. "useful" ones presumably defunct without servers to connect to
+
+monsterSets : creatures hostile and not
+
+mp3 : music
+
+mp4 : empty
+
+npcData : NPC stats and equipment inventories
+
+projectiles : empty
+
+questCharacters : mugshots of certain characters or places, typically appeared on right side of screen to annoy you
+
+soundSets : sound effects (not in MP3 files this time, SWF bundles)
+
+TEST_STREAMING : empty
+
+tilesets : map tiles
+
+zones : map data
+
+{missing}
+a handful of files despite being listed in staticData.json do not seem to exist
+maybe they were never on the server, or maybe they actually were deleted
+some of these were actually requested by the game client, but nothing happened other than a 404 error in browser console
+
+those files were:
+tilesets/cave_corner_E_v14543.swf
+projectiles/fire_projectile_v14543.swf
+avatar/off_hand/aegis_shield_v14543.swf
+avatar/off_hand/lily_pad_shield_v14543.swf
+avatar/off_hand/buckler_v14543.swf
+avatar/weapons/crystal_claws_v14543.swf
+avatar/weapons/stone_fist_v14543.swf
+avatar/weapons/paper_cutter_v14543.swf
+zones/_user_zones/1_rob_test_v14543.txt
+zones/1_sassafras_island/1_suit_up_v14543.txt
+avatar/weapons/iron_sword_v14543.swf
+tilesets/snow_tiles/snow_river_elbow_N_v14543.swf
+tilesets/snow_tiles/snow_river_elbow_S_v14543.swf
+tilesets/snow_tiles/snow_river_corner_S_v14543.swf
+doodadSets/farm/farm_horse_v14543.swf
+doodadSets/farm/farm_horse_active_v14543.swf
+avatar/off_hand/dummy
+tilesets/light_stone/light_stone_dirt_corner_w_v14543.swf
+TEST_STREAMING/playsaurus-new-reverb_v14543.mp4
+mp4/01-myth-of-the-cloudstone-1_v14543.mp4
+mp4/02-myth-of-the-cloudstone-2_v14543.mp4
+mp4/03-main-theme_v14543.mp4
+mp4/04-my-lawnmower-turned-into-a-dragon_v14543.mp4
+mp4/05-cave-of-the-ancients_v14543.mp4
+mp4/06-myth-of-the-cloudstone-heros-death_v14543.mp4
+mp4/07-spin-top-jig_v14543.mp4
+mp4/08-en-garde_v14543.mp4
+mp4/09-march-for-glory_v14543.mp4
+mp4/10-the-journey_v14543.mp4
+mp4/la-valse-des-nymphes-sylvestres_v14543.mp4
+mp4/null_v14543.mp4
+mp4/null_v14543.mp4
+mp4/null_v14543.mp4
+avatar/face/snow_goggles_v14543.swf
+monsterSets/pet_squirrel_icon_v14543.swf
+doodadSets/miscellaneous_natural/ice_cave/ice_stalamite_medium_v14543.swf
+avatar/feet/blacksmiths_shoe_v14543.swf
+avatar/legs/blacksmiths_top_v14543.swf
+0/0_v14543.0
+0/0_v14543.0
+avatar/feet/allanas_boots_v14543.swf
+avatar/weapons/allanas_staff_v14543.swf
+avatar/legs/allanas_pants_v14543.swf
+backgroundSets/bg_cloud_5_v14543.swf
+avatar/hair/top_knot_v14543.swf
+avatar/feet/northener
+interactableSets/flame_interactable_v14543.swf
+monsterSets/blind_kung_fu_turtloid_1_v14543.swf
+monsterSets/blind_kung_fu_turtloid_2_v14543.swf
+monsterSets/blind_kung_fu_turtoid_3_v14543.swf
+monsterSets/blind_kung_fu_turtloid_4_v14543.swf
+monsterSets/spiked_turtloid_v14543.swf
+monsterSets/c_a_l
+avatar/weapons/wand_of_spiders_v14543.swf
+tilesets/sand/dirt_6_v14543.swf
+doodadSets/mounds/stone_formation_3_v14543.swf
+doodadSets/mounds/stone_formation_4_v14543.swf
+doodadSets/mounds/stone_formation_5_v14543.swf
+doodadSets/mounds/stone_formation_6_v14543.swf
+doodadSets/mounds/stone_formation_7_v14543.swf
+doodadSets/mounds/stone_formation_8_v14543.swf
+doodadSets/miscellaneous_man_made/ruins/wall_ruins_8_v14543.swf
+doodadSets/miscellaneous_man_made/ruins/wall_ruins_9_v14543.swf
+doodadSets/miscellaneous_man_made/ruins/wall_ruins_10_v14543.swf
+doodadSets/miscellaneous_man_made/ruins/wall_ruins_11_v14543.swf
+doodadSets/miscellaneous_man_made/ruins/wall_ruins_12_v14543.swf
+doodadSets/miscellaneous_natural/rocks/smooth_rock_7_v14543.swf
+doodadSets/miscellaneous_natural/rocks/smooth_rock_8_v14543.swf
+doodadSets/miscellaneous_natural/rocks/smooth_rock_9_v14543.swf
+doodadSets/miscellaneous_natural/rocks/smooth_rock_10_v14543.swf
+doodadSets/sand/pier_board_1_v14543.swf
+doodadSets/sand/pier_board_2_v14543.swf
+doodadSets/sand/pier_board_3_v14543.swf
+doodadSets/sand/pier_board_4_v14543.swf
+avatar/hands/zealot
+/characterviewer_v14543.swf
+avatar/head/antique_divers_helmet_v14543.swf
+tilesets/sand/ocean_3_flat_v14543.swf
+tilesets/sand/sand_1_flat_v14543.swf
+doodadSets/sand/sand_falls_1_v14543.swf
+doodadSets/sand/sand_falls_2_v14543.swf
+monsterSets/sand_wyrm_v14543.swf
+monsterSets/sand_spider_v14543.swf
+monsterSets/desert_djinni_v14543.swf
+doodadSets/sand/ocean_tint_39_v14543.swf
+images/feedPosts/dead_octani_v14543.png
+doodadSets/miscellaneous_natural/desert/
+
+whether or not they ever did exist, they certainly don't now
+
+{license}
+can't, but just don't do anything stupid...

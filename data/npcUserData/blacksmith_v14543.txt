@@ -1,0 +1,168 @@
+{
+    "actionBar": {
+        "actions": {
+            "1": {
+                "id": 44,
+                "type": 1
+            },
+            "6": {
+                "id": 153,
+                "type": 0
+            }
+        }
+    },
+    "buffs": {
+        "set": {}
+    },
+    "equipment": {
+        "equippedItems": {
+            "1": 1623,
+            "10": null,
+            "12": 1301,
+            "3": null,
+            "30": 1483,
+            "31": 1091,
+            "32": 1047,
+            "33": 41,
+            "34": 32,
+            "35": 1137,
+            "38": 111,
+            "4": 1620,
+            "5": 1621,
+            "6": 1622
+        }
+    },
+    "gender": 2,
+    "inventory": {
+        "_currentUids": {
+            "items": 1624
+        },
+        "items": {
+            "1047": {
+                "id": 47,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1047
+            },
+            "1091": {
+                "id": 91,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1091
+            },
+            "111": {
+                "id": 111,
+                "nickname": "",
+                "quantity": 1,
+                "uid": 111
+            },
+            "1137": {
+                "id": 140,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1137
+            },
+            "1301": {
+                "id": 307,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1301
+            },
+            "1483": {
+                "id": 492,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1483
+            },
+            "1620": {
+                "id": 633,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1620
+            },
+            "1621": {
+                "id": 634,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1621
+            },
+            "1622": {
+                "id": 635,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1622
+            },
+            "1623": {
+                "id": 636,
+                "nickname": null,
+                "quantity": 1,
+                "uid": 1623
+            },
+            "32": {
+                "id": 32,
+                "nickname": "",
+                "quantity": 1,
+                "uid": 32
+            },
+            "41": {
+                "id": 41,
+                "nickname": "",
+                "quantity": 1,
+                "uid": 41
+            }
+        }
+    },
+    "jobId": 1,
+    "level": 11,
+    "statPoints": 50,
+    "stats": {
+        "baseStatsId": 1,
+        "nakedStats": {
+            "1": 11,
+            "10": 20,
+            "11": 100,
+            "12": 10,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 20,
+            "17": 100,
+            "18": 10,
+            "2": 11,
+            "3": 1,
+            "30": 0,
+            "31": 0,
+            "32": 1,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 1,
+            "37": 5,
+            "38": 250,
+            "39": 0,
+            "4": 11,
+            "40": 0,
+            "41": 2,
+            "60": 0.3,
+            "61": 600,
+            "62": 50,
+            "63": 250
+        }
+    },
+    "summonEffectId": 0,
+    "talents": {
+        "talentPoints": 10,
+        "talents": {
+            "1": {
+                "currentPoints": 1,
+                "id": 1
+            }
+        }
+    },
+    "usedSkills": {
+        "1": true,
+        "44": true,
+        "9": true
+    },
+    "xp": 10000000190
+}
